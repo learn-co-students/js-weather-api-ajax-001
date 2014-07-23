@@ -17,9 +17,12 @@ resources: 2
 * Require `weather-chart.js` below the lines where you required jQuery and Chart.js.
 * In `weather-chart.js`, make a variable, `API_KEY`, and define it as the string of your Weather Underground key.
 * Make a variable `URL` that will be the URL that your code will fetch hourly JSON data on New York city's weather. Read the [docs](http://www.wunderground.com/weather/api/d/docs?d=data/hourly) to figure out what it'll be.
-* Use jQuery to [fetch the JSON](http://api.jquery.com/jquery.getjson/).
+* Use jQuery to fetch the JSON using an AJAX request(http://api.jquery.com/jquery.ajax/).
+* Filter the JSON so that each hour, in military time, is associated with a temperature, in fahrenheit.
+* Use the data you found in the line above to make a graph with Chart.js.
 
 
 ## Resources
 * [Weather Underground](http://www.wunderground.com) - [Hourly](http://www.wunderground.com/weather/api/d/docs?d=data/hourly)
+* [jQuery](http://api.jquery.com/) - [AJAX](http://api.jquery.com/jquery.ajax/)
 * [Chart.js documentation](http://www.chartjs.org/docs/#getting-started)
