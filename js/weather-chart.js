@@ -13,6 +13,7 @@ jQuery(document).ready(function($) {
     success : function(parsed_json) {
       var timeData = parsed_json.hourly_forecast;
       var max = timeData.length;
+      
       for (i = 0; i < max; i++) {
         var fahrenheit = timeData[i].temp.english;
         fahrenheits.push(fahrenheit);
