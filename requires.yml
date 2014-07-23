@@ -1,6 +1,8 @@
 # A list of javascript files required for the project, in dependency order
 javascripts:
   files:
+    - js/jquery-1.8.3.min.js
+    - js/Chart.min.js
     - js/weather-chart.js
   specs:
     - spec/weather-chart-spec.js
