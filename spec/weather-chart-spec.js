@@ -13,11 +13,13 @@ describe("WeatherChart", function() {
   });
 
   it("defines an empty array called 'hours' for containing all the time values", function () {
-    expect(hours).toEqual(jasmine.any(Array));
+    var emptyArray = [];
+    expect(hours).toEqual(emptyArray);
   });
 
   it("defines an empty array called 'fahrenheits' for containing all the temperature values", function () {
-    expect(fahrenheits).toEqual(jasmine.any(Array));
+    var emptyArray = [];
+    expect(fahrenheits).toEqual(emptyArray);
   });
 
 }
