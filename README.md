@@ -1,10 +1,10 @@
 ---
 language: javascript
-tags: WIP, AJAX, data visualization, JavaScript library
-resources: 2
+tags: AJAX, data visualization, JavaScript library, Chartkick, API
+resources: 3
 ---
 
-# AJAX Visualization of NYC's Temperature
+# Visualizing Temperature w/AJAX
 
 ## Objectives
 * Build a page that uses data from the [Weather Underground](http://www.wunderground.com/weather/api/) to render a line chart using [Chart.js](http://chartkick.com/). It should look something like the picture below.
