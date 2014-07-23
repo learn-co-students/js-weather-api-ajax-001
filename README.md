@@ -17,6 +17,8 @@ resources: 2
 * Require `weather-chart.js` below the lines where you required jQuery and Chart.js.
 * In `weather-chart.js`, make a variable, `API_KEY`, and define it as the string of your Weather Underground key.
 * Make a variable `URL` that will be the URL that your code will fetch hourly JSON data on New York city's weather. Read the [docs](http://www.wunderground.com/weather/api/d/docs?d=data/hourly) to figure out what it'll be.
+* Use jQuery to [fetch the JSON](http://api.jquery.com/jquery.getjson/).
+
 
 ## Resources
 * [Weather Underground](http://www.wunderground.com) - [Hourly](http://www.wunderground.com/weather/api/d/docs?d=data/hourly)
