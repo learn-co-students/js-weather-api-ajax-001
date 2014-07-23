@@ -1,6 +1,6 @@
 # A list of javascript files required for the project, in dependency order
 javascripts:
   files:
-    - relative/path/to/a/file/here
+    - js/weather-chart.js
   specs:
-    - relative/path/to/a/spec/file
+    - spec/weather-chart-spec.js
