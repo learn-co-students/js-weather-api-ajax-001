@@ -15,7 +15,7 @@ resources: 2
 * Require jQuery at the to of `index.html`.
 * You'll be using Chart.js to visualize the JSON from Weather Underground so check it out [here](http://chartkick.com/). Require the Chart library in the head of your HTML file.
 * Require `weather-chart.js` below the lines where you required jQuery and Chart.js.
-
+* 
 
 ## Resources
 * [Weather Underground](http://www.wunderground.com) - [Hourly](http://www.wunderground.com/weather/api/d/docs?d=data/hourly)
