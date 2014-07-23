@@ -4,7 +4,7 @@ tags: WIP, AJAX, data visualization, JavaScript library
 resources: 2
 ---
 
-# Weather Underground AJAX Visualization
+# AJAX Visualization of Weather
 
 ## Objectives
 * Learn how to use AJAX to keep data current.
