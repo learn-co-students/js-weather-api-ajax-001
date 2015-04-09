@@ -9,7 +9,7 @@ resources: 3
 ## Objectives
 * Build a page that uses data from the [Weather Underground](http://www.wunderground.com/weather/api/) to render a line chart using [Chart.js](http://chartkick.com/). It should look something like the picture below.
 
-![example pic](/images/example.png "Pic of Example")
+![example pic](http://ironboard-curriculum-content.s3.amazonaws.com/web-development/js-weather-api-ajax/example.png "Pic of Example")
 
 * Learn how to use AJAX to keep data current.
 * Use a JavaScript visualization library.
