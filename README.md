@@ -1,9 +1,3 @@
----
-language: javascript
-tags: AJAX, data visualization, JavaScript library, Chartkick, API
-resources: 3
----
-
 # Visualizing Temperature w/AJAX
 
 ## Objectives
