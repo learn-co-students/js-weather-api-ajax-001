@@ -38,15 +38,12 @@ function generateDataSet(hours, farenheits){
 var data = generateDataSet(getHours(json), getFarenheits(json));
 
 function makeAjaxRequest(url, ajaxCall){
-
+  $.ajax({
+    url: url,
+    dataType: 'jsonp',
+    success: ajaxCall
+  });
 }
-
-$.ajax({
-  url: URL,
-  dataType: 'jsonp',
-  success: function(response){
-  }
-});
 
 function ajaxCall(json){
   var data = generateDataSet(getHours(json), getFarenheits(json));
