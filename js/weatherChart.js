@@ -1,7 +1,7 @@
 // var API_KEY = "6f97229f7b7486ad";
-// var URL = "http://api.wunderground.com/api/6f97229f7b7486ad/hourly/q/GA/Atlanta.json";
 // var ctx = $('#ATLWeatherChart');
 jQuery(document).ready(function($) {
+  var URL = "http://api.wunderground.com/api/6f97229f7b7486ad/hourly/q/GA/Atlanta.json";
 
   function getFarenheits(json){
     var farenheits = [];
@@ -43,11 +43,11 @@ jQuery(document).ready(function($) {
   }
 
   function makeAjaxRequest(url, ajaxCall){
-    console.log(json);
+    // console.log(json);
     $.ajax({
       url: url,
       dataType: 'jsonp',
-      success: ajaxCall()
+      success: ajaxCall(url)
     });
   }
   makeAjaxRequest(URL, ajaxCall);
