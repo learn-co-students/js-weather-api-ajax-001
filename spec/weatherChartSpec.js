@@ -20,16 +20,16 @@ describe("WeatherChart", function(){
     expected = {
       labels: ["label1", "label2"],
       datasets: [
-      {
-        label: "Hourly Weather for New York",
-        fillColor: "rgba(220,220,220,0.2)",
-        strokeColor: "rgba(220,220,220,1)",
-        pointColor: "rgba(220,220,220,1)",
-        pointStrokeColor: "#fff",
-        pointHighlightFill: "#fff",
-        pointHighlightStroke: "rgba(220,220,220,1)",
-        data: ["data1", "data2"]
-      }
+        {
+          label: "Hourly Weather for Atlanta",
+          fillColor: "rgba(220,220,220,0.2)",
+          strokeColor: "rgba(220,220,220,1)",
+          pointColor: "rgba(220,220,220,1)",
+          pointStrokeColor: "#fff",
+          pointHighlightFill: "#fff",
+          pointHighlightStroke: "rgba(220,220,220,1)",
+          data: ["data1", "data2"]
+        }
       ]
     };
     expect(generateDataSet(["label1", "label2"], ["data1", "data2"])).toEqual(expected);
