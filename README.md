@@ -23,3 +23,5 @@
 * [Weather Underground](http://www.wunderground.com) - [Hourly](http://www.wunderground.com/weather/api/d/docs?d=data/hourly)
 * [jQuery](http://api.jquery.com/) - [AJAX](http://api.jquery.com/jquery.ajax/)
 * [Chart.js](http://www.chartjs.org/docs/#getting-started) - [Line Charts](http://www.chartjs.org/docs/#line-chart-example-usage)
+
+<a href='https://learn.co/lessons/js-weather-api-ajax' data-visibility='hidden'>View this lesson on Learn.co</a>
