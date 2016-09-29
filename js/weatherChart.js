@@ -1,4 +1,4 @@
-function getFarenheits(result){
+function getFahrenheits(result){
   // Your code goes here
 }
 
