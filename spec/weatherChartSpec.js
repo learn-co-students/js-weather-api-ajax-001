@@ -2,11 +2,11 @@ var dummyData = {"response":{"version":"0.1","termsofService":"http://www.wunder
 
 describe("WeatherChart", function(){
   // The array we want to get all of our info from is located in `dummyData.hourly_forecast`
-  it("returns a list of farenheits", function(){
-    // Each Item has a property of temp. 
-    // The farenheit is stored in temp's english property
+  it("returns a list of Fahrenheit temperatures", function(){
+    // Each Item has a property of temp.
+    // The Fahrenheit temperature is stored in temp's english property
     // Return a new array of just these values
-    expect(getFarenheits(dummyData)).toEqual(['59','58','57','57','56']);
+    expect(getFahrenheits(dummyData)).toEqual(['59','58','57','57','56']);
   });
 
   it("returns a list of hours", function(){
