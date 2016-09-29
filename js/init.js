@@ -5,6 +5,6 @@ jQuery(document).ready(function($) {
 
   makeAjaxRequest(URL, function(json) {
     var data = generateDataSet(getHours(json), getFahrenheits(json));
-    var tempChart = new Chart.Line(ctx, {data: data, options: { bezierCurve: true}});
+    var tempChart = new Chart(ctx).Line(data, { bezierCurve: true });
   });
 });
